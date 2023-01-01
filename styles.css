@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #d4e722, #c2e817, #aee910, #97ea0f, #7deb15, #52e95d, #25e587, #00dfa6, #00cfd6, #00b9ff, #009aff, #5f6dfb);
+    background-size: cover;
+    min-height: 100vh;
+    
+    
+}
+h1{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+
+}
+input{
+    padding: 0.45rem;
+    font-size: 1.25rem;
+    min-height: 4.5vh;
+    align-items: center;
+    border-radius: 30vw;
+    
+}
+.f1,.f2,.f3,.f4,.f5,.f6,.f7,.error{
+    display: flexbox;
+    justify-items: center;
+    text-align: center;
+    padding: 0.45rem;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    
+}
+button{
+    background-color: cornflowerblue;
+}
+.error{
+    color: red;
+}
